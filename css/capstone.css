@@ -1,0 +1,355 @@
+
+body {
+    font-size: 16px;
+}
+
+.container {
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.container img {
+    max-width: 100%;
+    height: auto;
+    display: inline-flex;
+}
+
+.big-container {
+    width: 100%;
+    height: 880px;
+    display: flex;
+    background-color: #C1C8C7;
+}
+
+
+
+/*header*/
+
+.header-box {
+    width: 100%;
+    height: 8px;
+    padding: 0 0 5%;
+    display: block;
+}
+
+.inner-header {
+    width: 100%;
+    height: 90%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logo {
+    height: 100%;
+    font-size: 2rem;
+    font-weight: bold;
+    float: left;
+    padding: 20px 10px;
+}
+
+.header-box strong {
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+}
+
+.header-nav {
+    height: 100%;
+    float: right;
+}
+
+.header-nav a{
+    font-size: 2rem;
+    font-weight: bold;
+    list-style: none;
+    text-decoration-line: none;
+    color: black;
+    display: inline-flex;
+    padding: 0px 20px;
+}
+
+.header-nav a:last-child {
+    padding: 0px;
+}
+
+/*sign-in*/
+
+.banner {
+    width: 100%;
+    height: 80%;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.banner h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    vertical-align: center;
+}
+
+.banner-pix {
+    width: 90%;
+    height: 80%;    
+    padding: 32px 24px;
+}
+
+.banner-text {
+    width: 30%;
+    justify-content: row;
+    padding: 10% 10%;
+    font-size: 2.85rem;
+}
+
+.banner-text h2 {
+    font-size: 1em;
+    
+}
+
+.banner-text button {
+    width: 350px;
+    height: 75px;
+    padding: 8px;
+    justify-content: center;
+    align-content: center;
+    font-size: .70em;
+    font-family: 'Merriweather';
+    border-width: 2px;
+    background-color: orange;
+    color: white;
+}
+
+/*keep practicing*/
+
+.big-container2 {
+    width: 100%;
+    height: 1000px;
+    display: flex;
+}
+
+.practice-pix {
+    width: 60%;
+    height: 100%;
+    padding: 32px 24px;
+    flex-direction: column;
+}
+
+.practice-pix h1 {
+    padding: 10px 0;
+    font-size: 3rem;
+}
+
+.practice-pix p{
+    padding: 10px 10px;
+    font-size: 1.5rem;
+    align-items: left;
+}
+
+.practice-pix span {
+    font-size: 1.2rem;
+}
+
+.inner-container {
+    width: 40%;
+    height: auto;
+    display: relative;
+}
+
+.label-pix {
+    width: 90%;
+    height: 25%;
+    padding: 32px 10px;
+    font-size: 1.45rem;
+    text-align: center;
+    display: relative;
+}
+
+.label-pix img {
+    float: left;
+}
+
+.label-pix h2 {
+    font-size: 2.6rem;
+    
+}
+
+.label-pix2 {
+    width: 100%;
+    height: 28%;
+    padding: 32px 10px;
+    font-size: 1.45rem;
+    text-align: center;
+    display: relative;
+    background-color: #C1C8C7;
+}
+
+.label-pix2 img {
+    float: left;
+}
+
+/*start learning*/
+
+.learn-container {
+    width: 100%;
+    height: 1300px;
+    display: block;
+    background-color: #F1F1F1;
+}
+
+.learn-container h1 {
+    font-size: 4rem;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    display: block;
+    padding: 36px 0px;
+}
+
+
+.inner-learn {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: wrap;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    
+}
+
+
+.inner-pix {
+    width: 28.2%;
+    font-size: 1.6em;
+    top: 50%;
+    margin: 10px 10px;
+    background-color: white;
+}
+
+.inner-pix p {
+    color: #565656;
+    vertical-align: middle;
+    
+}
+
+.inner-txt3 {
+    padding: 8px;
+  }
+
+/*thesis exhibit*/
+
+h1 {
+    font-size: 4rem;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+}
+
+.thesis-container {
+    width: 100%;
+    height: 1000px;
+    display: flex;
+}
+
+.inner-thesis {
+    width: 60%;
+    height: 68%;
+    margin: 32px 24px;
+    background-color: white;
+}
+
+.inner-vid {
+    width: auto;
+    height: auto;
+    display: relative;
+}
+
+.inner-txt {
+    padding: 8px 8px;
+}
+
+.inner-txt h2 {
+    font-size: 2.3rem;
+    color: #101010;
+}
+
+.inner-txt p {
+    font-size: 1.9rem;
+}
+
+.side-container {
+    width: 40%;
+    height: 67%;
+    display: relative;
+    text-align: center;
+    margin: 32px 32px;
+    background-color: white;
+}
+
+.thesis-side {
+    height: auto;
+    padding: 16px 16px;
+    display: inline-flex;
+}
+
+.thesis-side img {
+    float: left;
+}
+
+.thesis-side2 {
+    height: auto;
+    padding: 16px 16px;
+    display: inline-flex;
+    background-color: #C1C8C7;
+}
+
+.thesis-side img {
+    float: left;
+}
+
+.inner-txt2 {
+  padding: 8px 16px;
+}
+
+.inner-txt2 h3 {
+    font-size: 2.3rem;
+}
+
+.inner-txt2 p {
+    font-size: 1.6rem;
+}
+
+/*footer*/
+
+.footer {
+    width: 99%;
+    height: auto;
+    padding: 16px 24px;
+    display: inline-block;
+    font-size: 1.2rem;
+}
+
+.footer p{
+    float: left;
+}
+
+.footer span {
+    float: right;
+    word-spacing: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
